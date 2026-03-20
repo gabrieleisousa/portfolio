@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(205, 183, 231);
+}
+h1 {
+    color: rgba(172, 105, 144, 0.808);
+}
+h2{
+    color: rgb(3, 87, 59);
+}
+nav{
+    background-color: black;
+}
+nav a{ /*a partir do nav quero pegar só o a*/
+    color: white;
+}
+/*margem: distancia com a parte de fora, padding: em relação ao que ta dentro dele*/
+section {
+    background-color: bisque;
+    padding: 20px;
+    margin: 20px;
+}
