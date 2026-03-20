@@ -1,5 +1,6 @@
 body {
     background-color: rgb(205, 183, 231);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 h1 {
     color: rgba(172, 105, 144, 0.808);
@@ -9,13 +10,26 @@ h2{
 }
 nav{
     background-color: black;
+    text-align: center;
+    padding: 10px;
 }
 nav a{ /*a partir do nav quero pegar só o a*/
     color: white;
+    text-decoration: none;
+    margin: 15px;
 }
 /*margem: distancia com a parte de fora, padding: em relação ao que ta dentro dele*/
 section {
     background-color: bisque;
     padding: 20px;
     margin: 20px;
+}
+#inicio{
+    background-color: lightsalmon;
+}
+.nome{
+    color: rgb(255, 240, 191);
+}
+.cabecalho {
+    text-align: center;
 }
